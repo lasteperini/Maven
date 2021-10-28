@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author lavinia
+ *
+ */
+module Maven {
+}
