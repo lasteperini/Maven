@@ -1,9 +1,9 @@
 package profili;
 
-public class Elettore extends Persona {
+public class Scrutatore {
 	private String nome, cognome, codicefiscale;
 	
-	public Elettore (String nome, String cognome, String codicefiscale) {
+	public Scrutatore (String nome, String cognome, String codicefiscale) {
 		this.nome = nome;
 		this.cognome = cognome();
 		this.codicefiscale = codicefiscale();
@@ -16,4 +16,5 @@ public class Elettore extends Persona {
 	public String getCodicefiscale() {
 		return this.codicefiscale;
 	}
+
 }
